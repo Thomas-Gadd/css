@@ -134,7 +134,7 @@ hr {
 }
 
 .education-row {
-    display: inline-block;
+    /*display: inline-block;*/
     width: 60%;
     margin: 40px auto 70px auto;
     text-align: left;
