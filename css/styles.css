@@ -95,6 +95,7 @@ hr {
 /*** Top Container ***/
 
 .top-container {
+    top: 15px;
     margin: 0;
     height: 600px;;
     position: relative;
@@ -116,7 +117,7 @@ hr {
 }
 
 .intro {
-    width: 30%;
+    width: 25%;
     margin: auto;
 }
 
@@ -133,33 +134,46 @@ hr {
 }
 
 .education-row {
+    display: inline-block;
     width: 60%;
-    margin: 70px auto 100px auto;
+    margin: 40px auto 70px auto;
     text-align: left;
     line-height: 2;
 }
 
-.computer-image {
+.msc-image {
     width: 25%;
     max-width: fit-content;
     float: left;
     border-radius: 30px;
-    margin: auto 20px 30px auto;
+    margin: auto 20px 0px auto;
 }
 
-.computer-desciption {
+.msc-description {
     overflow: hidden;
 }
 
-.chilli-img {
+.bsc-img {
     width: 25%;
     max-width: fit-content;
     float: right;
     margin-left: 30px;
 }
 
-.chilli-description {
+.bsc-description {
     overflow: hidden;
+}
+
+.skills-description {
+    overflow: hidden;
+}
+
+.skills-icon {
+    width: 25%;
+    max-width: fit-content;
+    float: left;
+    border-radius: 30px;
+    margin: auto 20px 30px auto;
 }
 
 .left-tree {
